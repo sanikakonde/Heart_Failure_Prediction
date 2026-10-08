@@ -1,19 +1,19 @@
 # 🫀 Heart Disease Prediction Using Machine Learning
 
-## 📌 About the Project
+##  About the Project
 
 This project uses machine learning to predict whether a patient has heart disease or not based on patient health information.
 
 I performed the complete machine learning workflow, starting from data exploration and preprocessing to model training, comparison, hyperparameter tuning, and final prediction.
 
-## 🎯 Objective
+##  Objective
 
 The main objective of this project is to build a classification model that can predict:
 
 - `0` → No Heart Disease
 - `1` → Heart Disease
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains **918 patient records and 12 columns**.
 
@@ -38,7 +38,7 @@ The dataset was taken from Kaggle:
 
 [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 
-## 🛠️ Tools and Technologies
+##  Tools and Technologies
 
 - Python
 - NumPy
@@ -47,9 +47,9 @@ The dataset was taken from Kaggle:
 - Seaborn
 - Scikit-learn
 - XGBoost
-- Jupyter Notebook / Kaggle
+- Kaggle
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 I performed Exploratory Data Analysis (EDA) to understand the dataset.
 
@@ -62,7 +62,7 @@ The analysis includes:
 - Heart disease distribution by chest pain type
 - Correlation heatmap
 
-## ⚙️ Data Preprocessing
+##  Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -120,11 +120,3 @@ After training and evaluating the final model, I tested it on a sample patient r
 The model predicted:
 
 **Heart Disease Predicted**
-
-## 📁 Project Structure
-
-```text
-heart-disease-prediction-ml/
-│
-├── heart-failure-prediction.ipynb
-└── README.md
